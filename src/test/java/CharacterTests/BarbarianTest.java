@@ -22,7 +22,7 @@ public class BarbarianTest {
         shield = new Item("shield", 10, false);
         items.add(axe);
         items.add(shield);
-        barbarian = new Barbarian("Bob", 20, items);
+        barbarian = new Barbarian("Bob", 20, items, 1);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class BarbarianTest {
 
     @Test
     public void hasMaxHp(){
-        assertEquals(20, barbarian.getMax_hp());
+        assertEquals(20, barbarian.getBase_hp());
     }
 
     @Test

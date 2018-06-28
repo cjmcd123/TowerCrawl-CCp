@@ -25,12 +25,12 @@ public class OrcTest {
 
     @Test
     public void hasMaxHp(){
-        assertEquals(50, orc.getMax_hp());
+        assertEquals(50, orc.getBase_hp());
     }
 
     @Test
     public void hasCurrentHp(){
-        assertEquals(50, orc.getCurrent_hp());
+        assertEquals(150, orc.getCurrent_hp());
     }
 
     @Test

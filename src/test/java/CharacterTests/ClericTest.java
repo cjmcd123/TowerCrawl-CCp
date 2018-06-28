@@ -26,7 +26,7 @@ public class ClericTest {
         ArrayList<Item> healItems = new ArrayList<Item>();
         potion = new Item("Small Potion of Healing", 20, false);
         healItems.add(potion);
-        cleric = new Cleric("Bob", 20, items, healItems);
+        cleric = new Cleric("Bob", 20, items,1);
     }
 
     @Test
@@ -36,7 +36,7 @@ public class ClericTest {
 
     @Test
     public void hasMaxHp(){
-        assertEquals(20, cleric.getMax_hp());
+        assertEquals(20, cleric.getBase_hp());
     }
 
     @Test
@@ -83,16 +83,16 @@ public class ClericTest {
         cleric.setExp(1);
         assertEquals(1, cleric.getExp());
     }
-
-    @Test
-    public void hasHealItems(){
-        assertEquals(1, cleric.getHealItems().size());
-    }
-
-    @Test
-    public void addHealItems(){
-        Item potion = new Item("Potion of True Heal", 20, false);
-        cleric.addHealItems(potion);
-        assertEquals(2, cleric.getHealItems().size());
-    }
+//
+//    @Test
+//    public void hasHealItems(){
+//        assertEquals(1, cleric.getHealItems().size());
+//    }
+//
+//    @Test
+//    public void addHealItems(){
+//        Item potion = new Item("Potion of True Heal", 20, false);
+//        cleric.addHealItems(potion);
+//        assertEquals(2, cleric.getHealItems().size());
+//    }
 }

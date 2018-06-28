@@ -1,3 +1,4 @@
+import Behaviours.IModifyHP;
 import Characters.Sprite;
 import Items.Loot;
 
@@ -31,7 +32,6 @@ public class Party {
     public int lootCount() {
       return  this.loot.size();
     }
-
 
 
 }

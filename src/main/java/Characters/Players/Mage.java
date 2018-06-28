@@ -5,14 +5,15 @@ import Behaviours.IModifyHP;
 import Items.Item;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Mage extends Players implements IAttack {
 
     private int max_mp;
     private int current_mp;
 
-    public Mage(String name, int max_hp, int max_mp, ArrayList<Item> items) {
-        super(name, max_hp, items);
+    public Mage(String name, int max_hp, int max_mp, ArrayList<Item> items, int lv) {
+        super(name, max_hp, items, lv);
         this.max_mp = max_mp;
         this.current_mp = max_mp;
     }
@@ -30,6 +31,17 @@ public class Mage extends Players implements IAttack {
     }
 
     public void attack(IModifyHP victim) {
-        
+        Item current = getCurrentItem();
+        int value = current.getHp_modifier();
+        Random roll = new Random();
+        int rollValue = roll.nextInt(value) + 1;
+        int damageValue = rollValue * this.getLv();
+        victim.damage(damageValue);
+    }
+
+    public void damage(int damage_value) {
+        int totalHealth = (getCurrent_hp() * getLv()) + (getDr() * getLv());
+        int damaged = totalHealth - damage_value;
+        this.setCurrent_hp(damaged);
     }
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public abstract class Players extends Sprite {
 
-    public Players(String name, int max_hp, ArrayList<Item> items) {
-        super(name, max_hp, items);
+    public Players(String name, int max_hp, ArrayList<Item> items, int lv) {
+        super(name, max_hp, items, lv);
     }
 }

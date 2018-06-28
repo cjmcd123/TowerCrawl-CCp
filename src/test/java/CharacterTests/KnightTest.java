@@ -22,7 +22,7 @@ public class KnightTest {
         shield = new Item("shield", 10, false);
         items.add(sword);
         items.add(shield);
-        knight = new Knight("Bob", 20, items);
+        knight = new Knight("Bob", 20, items, 1);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class KnightTest {
 
     @Test
     public void hasMaxHp(){
-        assertEquals(20, knight.getMax_hp());
+        assertEquals(20, knight.getBase_hp());
     }
 
     @Test

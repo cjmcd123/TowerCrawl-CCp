@@ -22,7 +22,7 @@ public class MageTest {
         shield = new Item("shield", 10, false);
         items.add(sword);
         items.add(shield);
-        mage = new Mage("Bob", 20, 20, items);
+        mage = new Mage("Bob", 20, 20, items, 1);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class MageTest {
 
     @Test
     public void hasMaxHp(){
-        assertEquals(20, mage.getMax_hp());
+        assertEquals(20, mage.getBase_hp());
     }
 
     @Test
