@@ -1,6 +1,7 @@
 package CharacterTests;
 
 import Characters.Players.Knight;
+import Items.Item;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,12 +12,16 @@ import static junit.framework.TestCase.assertEquals;
 public class KnightTest {
 
     Knight knight;
+    Item sword;
+    Item shield;
 
     @Before
     public void Setup(){
-        ArrayList<String> items = new ArrayList<String>();
-        items.add("Longsword");
-        items.add("Shield");
+        ArrayList<Item> items = new ArrayList<Item>();
+        sword = new Item("sword", 5, true);
+        shield = new Item("shield", 10, false);
+        items.add(sword);
+        items.add(shield);
         knight = new Knight("Bob", 20, items);
     }
 
@@ -48,7 +53,8 @@ public class KnightTest {
 
     @Test
     public void addItem(){
-        knight.adItems("Helmet");
+        Item helmet = new Item("helmet", 10, false);
+        knight.addItems(helmet);
         assertEquals(3, knight.getItems().size());
     }
 

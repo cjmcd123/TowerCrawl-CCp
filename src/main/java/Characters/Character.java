@@ -1,5 +1,8 @@
 package Characters;
 
+import Items.Item;
+
+import javax.swing.*;
 import java.util.ArrayList;
 
 public abstract class Character {
@@ -7,11 +10,11 @@ public abstract class Character {
     private String name;
     private int max_hp;
     private int current_hp;
-    private ArrayList<String> items;
+    private ArrayList<Item> items;
     private int lv;
     private int exp;
 
-    public Character(String name, int max_hp, ArrayList<String> items) {
+    public Character(String name, int max_hp, ArrayList<Item> items) {
         this.name = name;
         this.max_hp = max_hp;
         this.current_hp = max_hp;
@@ -36,11 +39,11 @@ public abstract class Character {
         this.current_hp = current_hp;
     }
 
-    public ArrayList<String> getItems() {
+    public ArrayList<Item> getItems() {
         return items;
     }
 
-    public void adItems(String item) {
+    public void addItems(Item item) {
         this.items.add(item);
     }
 

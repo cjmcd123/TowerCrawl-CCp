@@ -1,6 +1,7 @@
 package CharacterTests;
 
 import Characters.Players.Cleric;
+import Items.Item;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,14 +12,20 @@ import static junit.framework.TestCase.assertEquals;
 public class ClericTest {
 
     Cleric cleric;
+    Item sword;
+    Item shield;
+    Item potion;
 
     @Before
     public void Setup(){
-        ArrayList<String> items = new ArrayList<String>();
-        items.add("Sword");
-        items.add("Shield");
-        ArrayList<String> healItems = new ArrayList<String>();
-        healItems.add("Small Potion of Healing");
+        ArrayList<Item> items = new ArrayList<Item>();
+        sword = new Item("sword", 5, true);
+        shield = new Item("shield", 10, false);
+        items.add(sword);
+        items.add(shield);
+        ArrayList<Item> healItems = new ArrayList<Item>();
+        potion = new Item("Small Potion of Healing", 20, false);
+        healItems.add(potion);
         cleric = new Cleric("Bob", 20, items, healItems);
     }
 
@@ -50,7 +57,8 @@ public class ClericTest {
 
     @Test
     public void addItem(){
-        cleric.adItems("Helmet");
+        Item helmet = new Item("helmet", 10, false);
+        cleric.addItems(helmet);
         assertEquals(3, cleric.getItems().size());
     }
 
@@ -83,7 +91,8 @@ public class ClericTest {
 
     @Test
     public void addHealItems(){
-        cleric.addHealItems("Potion of True Heal");
+        Item potion = new Item("Potion of True Heal", 20, false);
+        cleric.addHealItems(potion);
         assertEquals(2, cleric.getHealItems().size());
     }
 }
