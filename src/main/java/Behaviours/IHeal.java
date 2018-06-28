@@ -1,5 +1,5 @@
 package Behaviours;
 
 public interface IHeal {
-    void heal(IModifyHP victim);
+    int heal(IModifyHP victim);
 }

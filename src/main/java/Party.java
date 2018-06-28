@@ -37,5 +37,9 @@ public class Party {
       return  this.loot.size();
     }
 
+    public void death(Sprite victim){
+        adventurers.remove(victim);
+    }
+
 
 }

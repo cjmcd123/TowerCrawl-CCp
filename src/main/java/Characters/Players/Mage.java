@@ -30,18 +30,20 @@ public class Mage extends Players implements IAttack {
         this.current_mp = current_mp;
     }
 
-    public void attack(IModifyHP victim) {
+    public int attack(IModifyHP victim) {
         Item current = getCurrentItem();
         int value = current.getHp_modifier();
         Random roll = new Random();
         int rollValue = roll.nextInt(value) + 1;
         int damageValue = rollValue * this.getLv();
-        victim.damage(damageValue);
+        int newHealth = victim.damage(damageValue);
+        return newHealth;
     }
 
-    public void damage(int damage_value) {
+    public int damage(int damage_value) {
         int totalHealth = (getCurrent_hp() * getLv()) + (getDr() * getLv());
         int damaged = totalHealth - damage_value;
         this.setCurrent_hp(damaged);
+        return getCurrent_hp();
     }
 }

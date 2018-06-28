@@ -102,4 +102,10 @@ public class RoomTest {
         assertEquals(0, room.getLoot().size());
         assertEquals(2, party.lootCount());
     }
+
+    @Test
+    public void testDeath() {
+        room.death(orc);
+        assertEquals(0, enemies.size());
+    }
 }

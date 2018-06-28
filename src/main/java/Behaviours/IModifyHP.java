@@ -1,5 +1,5 @@
 package Behaviours;
 
 public interface IModifyHP {
-    void damage(int damage_value);
+    int damage(int damage_value);
 }

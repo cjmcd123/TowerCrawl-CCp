@@ -33,7 +33,7 @@ public class Runner {
         Mage mage = new Mage(mageName, 10, 20, new ArrayList<Item>(), 1);
 
 
-        
+
 
     }
 

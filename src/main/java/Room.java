@@ -1,4 +1,7 @@
+import Behaviours.IModifyHP;
 import Characters.Enemies.Enemy;
+import Characters.Players.Players;
+import Characters.Sprite;
 import Items.Loot;
 
 import java.util.ArrayList;
@@ -34,6 +37,26 @@ public class Room {
         this.party.addAllLoot(this.loot);
         this.loot.clear();
     }
+
+    public void death(Sprite victim){
+        if (victim instanceof Players){
+            party.death(victim);
+        }
+        else {
+            enemies.remove(victim);
+        }
+
+    }
+
+//    public playerAttacks(Players player, IModifyHP victim){
+//        int newHealth = player.attack(victim);
+//        if (newHealth > player.getTotalHealth()){
+//            player.setCurrent_hp(player.getTotalHealth());
+//        }
+//        if (newHealth <= 0){
+//            death(victim);
+//        }
+//    }
 
 
 }

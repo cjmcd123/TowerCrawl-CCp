@@ -15,18 +15,24 @@ public class Cleric extends Players implements IHeal {
         super(name, max_hp, items, lv);
     }
 
-    public void heal(IModifyHP victim) {
+    public int heal(IModifyHP victim) {
             Item current = getCurrentItem();
             int value = current.getHp_modifier();
             Random roll = new Random();
             int rollValue = roll.nextInt(value) + 1;
             int damageValue = (rollValue *-1) * this.getLv();
-            victim.damage(damageValue);
+            int newHealth = victim.damage(damageValue);
+            return newHealth;
     }
 
-    public void damage(int damage_value) {
+    public int attack(IModifyHP victim) {
+        return 0;
+    }
+
+    public int damage(int damage_value) {
         int totalHealth = (getCurrent_hp() * getLv()) + (getDr() * getLv());
         int damaged = totalHealth - damage_value;
         this.setCurrent_hp(damaged);
+        return getCurrent_hp();
     }
 }
