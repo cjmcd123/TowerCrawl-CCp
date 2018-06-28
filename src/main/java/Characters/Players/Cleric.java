@@ -1,10 +1,12 @@
 package Characters.Players;
 
+import Behaviours.IHeal;
+import Behaviours.IModifyHP;
 import Items.Item;
 
 import java.util.ArrayList;
 
-public class Cleric extends Players {
+public class Cleric extends Players implements IHeal {
 
     private ArrayList<Item > healItems;
 
@@ -19,5 +21,9 @@ public class Cleric extends Players {
 
     public void addHealItems(Item healItem) {
         this.healItems.add(healItem);
+    }
+
+    public void heal(IModifyHP victim) {
+
     }
 }

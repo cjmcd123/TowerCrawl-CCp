@@ -5,7 +5,7 @@ import Items.Item;
 import javax.swing.*;
 import java.util.ArrayList;
 
-public abstract class Character {
+public abstract class Sprite {
 
     private String name;
     private int max_hp;
@@ -14,7 +14,7 @@ public abstract class Character {
     private int lv;
     private int exp;
 
-    public Character(String name, int max_hp, ArrayList<Item> items) {
+    public Sprite(String name, int max_hp, ArrayList<Item> items) {
         this.name = name;
         this.max_hp = max_hp;
         this.current_hp = max_hp;

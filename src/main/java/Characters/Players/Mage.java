@@ -1,10 +1,12 @@
 package Characters.Players;
 
+import Behaviours.IAttack;
+import Behaviours.IModifyHP;
 import Items.Item;
 
 import java.util.ArrayList;
 
-public class Mage extends Players {
+public class Mage extends Players implements IAttack {
 
     private int max_mp;
     private int current_mp;
@@ -25,5 +27,9 @@ public class Mage extends Players {
 
     public void setCurrent_mp(int current_mp) {
         this.current_mp = current_mp;
+    }
+
+    public void attack(IModifyHP victim) {
+        
     }
 }
