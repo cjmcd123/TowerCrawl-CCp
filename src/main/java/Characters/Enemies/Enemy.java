@@ -1,4 +1,4 @@
 package Characters.Enemies;
 
-public class Enemy {
+public abstract class Enemy {
 }

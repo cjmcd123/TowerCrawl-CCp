@@ -1,4 +1,4 @@
 package Characters.Pets;
 
-public class Pet {
+public abstract class Pet {
 }
