@@ -25,6 +25,10 @@ public class Party {
         this.loot.add(loot);
     }
 
+    public void addAllLoot(ArrayList<Loot> loot){
+        this.loot.addAll(loot);
+    }
+
     public void removeLoot(Loot loot) {
         this.loot.remove(loot);
     }

@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c54f440-39e3-430c-84a9-6ed286dfd177" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Enemies/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Enemies/Orc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Players/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Players/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Players/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Players/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Players/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Players/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Players/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Players/Players.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Characters/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Characters/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Party.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CharacterTests/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CharacterTests/BarbarianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CharacterTests/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CharacterTests/ClericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CharacterTests/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CharacterTests/KnightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CharacterTests/MageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CharacterTests/MageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EnemyTest/OrcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EnemyTest/OrcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PartyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PartyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Party.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Party.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,13 +32,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PartyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PartyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="-176">
+              <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Players/Mage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-41">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-146">
+              <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2285#2286#0" expanded="true" />
+                <element signature="e#2322#2323#0" expanded="true" />
+                <element signature="e#2474#2475#0" expanded="true" />
+                <element signature="e#2504#2505#0" expanded="true" />
+                <element signature="e#2572#2573#0" expanded="true" />
+                <element signature="e#2598#2599#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Party.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Party.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Items/Loot.java" />
         <option value="$PROJECT_DIR$/src/main/java/Items/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Enemies/Orc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Party.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Enemies/Enemy.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Players/Players.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Players/Barbarian.java" />
@@ -127,6 +193,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Characters/Sprite.java" />
         <option value="$PROJECT_DIR$/src/test/java/PartyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Characters/Players/Cleric.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Party.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
       </list>
     </option>
   </component>
@@ -180,57 +250,6 @@
               <item name="TowerCrawlCCP" type="b2602c69:ProjectViewProjectNode" />
               <item name="TowerCrawlCCP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Behaviours" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TowerCrawlCCP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TowerCrawlCCP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Characters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TowerCrawlCCP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TowerCrawlCCP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Characters" type="462c0819:PsiDirectoryNode" />
-              <item name="Enemies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TowerCrawlCCP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TowerCrawlCCP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Characters" type="462c0819:PsiDirectoryNode" />
-              <item name="Pets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TowerCrawlCCP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TowerCrawlCCP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Characters" type="462c0819:PsiDirectoryNode" />
-              <item name="Players" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TowerCrawlCCP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TowerCrawlCCP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Items" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TowerCrawlCCP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TowerCrawlCCP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PartyTest.healTest">
+  <component name="RunManager" selected="JUnit.All in TowerCrawlCCP">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -411,11 +430,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in TowerCrawlCCP" />
         <item itemvalue="JUnit.PartyTest.healTest" />
         <item itemvalue="JUnit.PartyTest.changeDamageMethodTest" />
         <item itemvalue="JUnit.PartyTest.rage" />
         <item itemvalue="JUnit.PartyTest.attack" />
-        <item itemvalue="JUnit.All in TowerCrawlCCP" />
       </list>
     </recent_temporary>
   </component>
@@ -433,15 +452,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_TowerCrawlCCP - 2018.06.28 at 14h 36m 01s.xml">
-      <configuration name="All in TowerCrawlCCP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TowerCrawlCCP - 2018.06.28 at 14h 40m 14s.xml">
-      <configuration name="All in TowerCrawlCCP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TowerCrawlCCP - 2018.06.28 at 14h 44m 28s.xml">
-      <configuration name="All in TowerCrawlCCP" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_TowerCrawlCCP - 2018.06.28 at 14h 45m 35s.xml">
       <configuration name="All in TowerCrawlCCP" configurationId="JUnit" />
     </history-entry>
@@ -463,6 +473,15 @@
     <history-entry file="PartyTest_changeDamageMethodTest - 2018.06.28 at 14h 52m 34s.xml">
       <configuration name="PartyTest.changeDamageMethodTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PartyTest_healTest - 2018.06.28 at 14h 56m 36s.xml">
+      <configuration name="PartyTest.healTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TowerCrawlCCP - 2018.06.28 at 15h 13m 05s.xml">
+      <configuration name="All in TowerCrawlCCP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_TowerCrawlCCP - 2018.06.28 at 15h 14m 48s.xml">
+      <configuration name="All in TowerCrawlCCP" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -476,12 +495,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -641,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Party.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Enemies/Orc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -681,16 +690,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Players/Mage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,10 +787,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Characters/Players/Mage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Party.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PartyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        <state relative-caret-position="-176">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2474#2475#0" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2572#2573#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
